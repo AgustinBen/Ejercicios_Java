@@ -2,7 +2,8 @@
 
 La propuesta está enfocada en fortalecer fundamentos, buenas prácticas y pensamiento lógico.  
 Los ejercicios estan pensados para que cada persona los **resuelva por su cuenta**.  
-La **IA** se utiliza únicamente como tutor, para corrección técnica y retroalimentación.
+La **IA** se utiliza únicamente como tutor, para corrección técnica y retroalimentación.  
+Se recomienda solicitarle a la **IA** nuevos ejercicios variados en cada nivel y no conformarse únicamente con estos.
 <br>
 <br>
 <br>
