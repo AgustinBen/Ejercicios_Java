@@ -1,4 +1,5 @@
 # Ruta de ejercicios en Java, desde nivel básico hasta intermedio/avanzado.
+
 La propuesta está enfocada en fortalecer fundamentos, buenas prácticas y pensamiento lógico.
 Pensada para que cada persona **resuelva los ejercicios por su cuenta**.  
 La **IA** se utiliza únicamente como tutor, para corrección técnica y retroalimentación.
