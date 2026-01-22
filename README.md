@@ -78,6 +78,7 @@ Objetivo: Simular problemas reales y preparar la transición a futuros proyectos
 
 28. Mini proyecto integrador
 <br>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <br>
 <br>
 
