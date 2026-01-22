@@ -78,7 +78,6 @@ Objetivo: Simular problemas reales y preparar la transición a futuros proyectos
 
 28. Mini proyecto integrador
 <br>
-------------------------------------------------------------------------------------------------------------------------------------------------------------
 <br>
 <br>
 
@@ -86,13 +85,13 @@ Objetivo: Simular problemas reales y preparar la transición a futuros proyectos
 
 **Ejercicio 1**
 
-**Conceptos necesarios**  
-Tipos de datos primitivos (int)  
-Variables y asignación  
-Operadores aritméticos (+, -, *, /, %)  
-Expresiones aritméticas  
-Salida por consola (System.out.println)  
-Concatenación de strings con +  
+**Conceptos necesarios**    
+Tipos de datos primitivos (int)    
+Variables y asignación    
+Operadores aritméticos (+, -, *, /, %)    
+Expresiones aritméticas    
+Salida por consola (System.out.println)    
+Concatenación de strings con +    
 
 **Consigna**  
 Escribir un programa en Java que declare dos variables enteras y calcule la suma, la resta, la multiplicación, la división entera y el resto de la división entre ellas.  
@@ -102,4 +101,25 @@ Mostrar cada resultado por consola con un mensaje descriptivo.
 No usar Scanner.  
 No usar estructuras de control.  
 No crear métodos propios.  
+Todo el código debe estar dentro del método main.  
+<br>
+
+**Ejercicio 2**
+
+**Conceptos necesarios**  
+Tipo de dato primitivo int  
+Tipo de dato primitivo boolean  
+Operadores de comparación (>, <, >=, <=, ==, !=)  
+Estructura condicional if  
+Bloques de código { }  
+Salida por consola (System.out.println)  
+
+**Consigna**  
+Escribir un programa en Java que declare una variable entera y determine si su valor es positivo, negativo o cero.  
+El resultado debe mostrarse por consola con un mensaje descriptivo.  
+
+**Reglas**  
+No usar Scanner.  
+No usar switch.  
+No usar bucles.  
 Todo el código debe estar dentro del método main.  
