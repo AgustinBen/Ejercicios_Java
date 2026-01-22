@@ -65,7 +65,7 @@ Objetivo: Elegir estructuras de datos adecuadas y escribir código mantenible.
 
 23. Diseño de un pequeño sistema
 <br>   
-🔴 NIVEL 5 – Nivel pre-profesional  
+🔴 NIVEL 5   
 Objetivo: Simular problemas reales y preparar la transición a futuros proyectos.
 
 24. Manejo avanzado de excepciones
