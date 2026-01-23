@@ -146,7 +146,8 @@ Mostrar el resultado por consola con un mensaje claro y correctamente redactado.
 Usar una sola estructura if / else.
 No hardcodear el resultado (no escribir directamente “es par” sin evaluarlo).
 El programa debe funcionar correctamente para cualquier número entero (positivo, negativo o cero).
-<br>
+<br>  
+
 
 **Ejercicio 4** – Contar del 1 al N  
 
