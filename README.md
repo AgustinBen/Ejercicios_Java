@@ -119,7 +119,53 @@ Escribir un programa en Java que declare una variable entera y determine si su v
 El resultado debe mostrarse por consola con un mensaje descriptivo.  
 
 **Reglas**  
-No usar Scanner.  
+No usar Scanner.    
 No usar switch.  
 No usar bucles.  
 Todo el código debe estar dentro del método main.  
+<br>
+
+
+**Ejercicio 3**  
+
+**Conceptos necesarios**  
+Operador módulo (%)   
+permite obtener el resto de una división entera.  
+Un número es par si el resto de dividirlo por 2 es 0.  
+Es impar si el resto es distinto de 0.  
+Estructuras condicionales (if / else)  
+tomar decisiones según una condición booleana.  
+Comparaciones (==)  
+comparar valores primitivos.  
+
+**Consigna**
+Declarar una variable entera llamada numero y determinar si el número es par o impar.
+Mostrar el resultado por consola con un mensaje claro y correctamente redactado.
+
+**Reglas**
+Usar una sola estructura if / else.
+No hardcodear el resultado (no escribir directamente “es par” sin evaluarlo).
+El programa debe funcionar correctamente para cualquier número entero (positivo, negativo o cero).
+<br>
+
+**Ejercicio 4** – Contar del 1 al N  
+
+**Conceptos necesarios**  
+Bucles (while)  
+Permiten repetir un bloque de código mientras una condición sea verdadera.  
+Variables de control  
+Variables que cambian su valor en cada iteración y evitan bucles infinitos.  
+Condiciones booleanas  
+Saber exactamente cuándo el bucle debe terminar.  
+
+**Consigna**  
+Declarar una variable entera n con un valor mayor que 0.  
+Mostrar por consola todos los números desde 1 hasta n, inclusive, uno por línea.  
+
+**Reglas**  
+Usar exclusivamente un bucle while.  
+No usar for.  
+No imprimir todos los números en una sola línea.  
+El bucle debe finalizar correctamente (sin bucles infinitos).  
+El código debe ser claro y legible.  
+<br>
