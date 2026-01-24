@@ -170,3 +170,28 @@ No imprimir todos los números en una sola línea.
 El bucle debe finalizar correctamente (sin bucles infinitos).  
 El código debe ser claro y legible.  
 <br>
+
+**Ejercicio 5** – Números pares hasta N  
+
+**Conceptos necesarios**
+Bucles (while)  
+Repetición controlada mediante una condición lógica.  
+Condiciones dentro de un bucle  
+Tomar decisiones en cada iteración.  
+Operador módulo (%)  
+Determinar si un número es par.  
+Control del flujo  
+Saber qué instrucciones se ejecutan y cuándo.  
+
+**Consigna**  
+Declarar una variable entera limite mayor que 0.  
+Mostrar por consola todos los números pares comprendidos entre 1 y limite, inclusive, uno por línea.  
+
+**Reglas**  
+Usar un único bucle while.  
+No usar for.  
+No usar break ni continue.  
+Usar una condición para determinar si un número es par.  
+Validar que limite sea mayor que 0 antes de ejecutar el bucle.  
+El código debe ser claro y legible.  
+<br>
