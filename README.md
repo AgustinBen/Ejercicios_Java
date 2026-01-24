@@ -1,4 +1,4 @@
-# Ruta de ejercicios en Java, desde nivel básico hasta intermedio/avanzado.
+# Ruta de ejercicios en Java, desde nivel básico hasta intermedio.
 
 La propuesta está enfocada en fortalecer fundamentos, buenas prácticas y pensamiento lógico.  
 Los ejercicios estan pensados para que cada persona los **resuelva por su cuenta**.  
