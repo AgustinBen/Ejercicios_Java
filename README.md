@@ -173,7 +173,7 @@ El código debe ser claro y legible.
 
 **Ejercicio 5** – Números pares hasta N  
 
-**Conceptos necesarios**
+**Conceptos necesarios**  
 Bucles (while)  
 Repetición controlada mediante una condición lógica.  
 Condiciones dentro de un bucle  
@@ -195,3 +195,32 @@ Usar una condición para determinar si un número es par.
 Validar que limite sea mayor que 0 antes de ejecutar el bucle.  
 El código debe ser claro y legible.  
 <br>
+
+**Ejercicio 6** – Tabla de multiplicar  
+
+**Conceptos que necesitás dominar**
+Bucle for  
+Estructura de repetición con inicialización, condición y actualización claras.  
+Contadores  
+Uso correcto de variables de control dentro del for.  
+Operadores aritméticos  
+Multiplicación y uso de expresiones.  
+Control del flujo  
+Entender cuántas veces se ejecuta el bucle y por qué.  
+
+**Consigna**     
+Declarar una variable entera numero mayor que 0.  
+Mostrar por consola la tabla de multiplicar de numero, desde 1 hasta 10, inclusive.  
+Ejemplo (si numero = 3):  
+3 x 1 = 3  
+3 x 2 = 6  
+...  
+3 x 10 = 30   
+  
+**Reglas de la consigna**  
+Usar exclusivamente un bucle for.  
+No usar while.  
+Validar que numero sea mayor que 0 antes de ejecutar el bucle.  
+No hardcodear resultados.  
+El formato de salida debe ser claro y consistente.  
+No agregar mensajes innecesarios.  
