@@ -198,7 +198,7 @@ El código debe ser claro y legible.
 
 **Ejercicio 6** – Tabla de multiplicar  
 
-**Conceptos que necesitás dominar**
+**Conceptos que necesitás dominar**  
 Bucle for  
 Estructura de repetición con inicialización, condición y actualización claras.  
 Contadores  
