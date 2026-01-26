@@ -174,14 +174,10 @@ El código debe ser claro y legible.
 **Ejercicio 5** – Números pares hasta N  
 
 **Conceptos necesarios**  
-Bucles (while)  
-Repetición controlada mediante una condición lógica.  
-Condiciones dentro de un bucle  
-Tomar decisiones en cada iteración.  
-Operador módulo (%)  
-Determinar si un número es par.  
-Control del flujo  
-Saber qué instrucciones se ejecutan y cuándo.  
+Bucles (while): Repetición controlada mediante una condición lógica.  
+Condiciones dentro de un bucle: Tomar decisiones en cada iteración.  
+Operador módulo (%): Determinar si un número es par.  
+Control del flujo: Saber qué instrucciones se ejecutan y cuándo.  
 
 **Consigna**  
 Declarar una variable entera limite mayor que 0.  
@@ -199,14 +195,10 @@ El código debe ser claro y legible.
 **Ejercicio 6** – Tabla de multiplicar  
 
 **Conceptos que necesitás dominar**  
-Bucle for  
-Estructura de repetición con inicialización, condición y actualización claras.  
-Contadores  
-Uso correcto de variables de control dentro del for.  
-Operadores aritméticos  
-Multiplicación y uso de expresiones.  
-Control del flujo  
-Entender cuántas veces se ejecuta el bucle y por qué.  
+Bucle for: Estructura de repetición con inicialización, condición y actualización claras.  
+Contadores: Uso correcto de variables de control dentro del for.  
+Operadores aritméticos: Multiplicación y uso de expresiones.  
+Control del flujo: Entender cuántas veces se ejecuta el bucle y por qué.  
 
 **Consigna**     
 Declarar una variable entera numero mayor que 0.  
