@@ -129,14 +129,10 @@ Todo el código debe estar dentro del método main.
 **Ejercicio 3**  
 
 **Conceptos necesarios**  
-Operador módulo (%)   
-permite obtener el resto de una división entera.  
-Un número es par si el resto de dividirlo por 2 es 0.  
+Operador módulo (%): permite obtener el resto de una división entera. Un número es par si el resto de dividirlo por 2 es 0.  
 Es impar si el resto es distinto de 0.  
-Estructuras condicionales (if / else)  
-tomar decisiones según una condición booleana.  
-Comparaciones (==)  
-comparar valores primitivos.  
+Estructuras condicionales (if / else): tomar decisiones según una condición booleana.   
+Comparaciones (==): comparar valores primitivos.  
 
 **Consigna**
 Declarar una variable entera llamada numero y determinar si el número es par o impar.
@@ -152,12 +148,9 @@ El programa debe funcionar correctamente para cualquier número entero (positivo
 **Ejercicio 4** – Contar del 1 al N  
 
 **Conceptos necesarios**  
-Bucles (while)  
-Permiten repetir un bloque de código mientras una condición sea verdadera.  
-Variables de control  
-Variables que cambian su valor en cada iteración y evitan bucles infinitos.  
-Condiciones booleanas  
-Saber exactamente cuándo el bucle debe terminar.  
+Bucles (while): Permiten repetir un bloque de código mientras una condición sea verdadera.  
+Variables de control: Variables que cambian su valor en cada iteración y evitan bucles infinitos.  
+Condiciones booleanas: Saber exactamente cuándo el bucle debe terminar.  
 
 **Consigna**  
 Declarar una variable entera n con un valor mayor que 0.  
