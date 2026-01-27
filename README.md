@@ -81,7 +81,7 @@ Objetivo: Simular problemas reales y preparar la transición a futuros proyectos
 <br>
 <br>
 
-🟢 **EJERCICIOS NIVEL 1** 
+🟢<h2> **EJERCICIOS NIVEL 1** </h2>
 
 **Ejercicio 1**
 
@@ -208,4 +208,33 @@ No usar while.
 Validar que numero sea mayor que 0 antes de ejecutar el bucle.  
 No hardcodear resultados.  
 El formato de salida debe ser claro y consistente.  
+No agregar mensajes innecesarios.  
+<br>
+
+**Ejercicio 7** – Suma de números del 1 al N  
+
+**Conceptos que necesitás dominar**  
+Bucle for: Repetición controlada cuando se conoce la cantidad de iteraciones.  
+Acumuladores: Variables que almacenan un resultado parcial y se actualizan en cada iteración.  
+Contadores: Uso correcto de una variable que avanza de forma controlada.  
+Operadores aritméticos: Suma y asignación.  
+Control del flujo: Entender el orden de ejecución y el alcance de las variables.  
+
+**Consigna**  
+Declarar una variable entera limite mayor que 0.  
+Calcular la suma de todos los números desde 1 hasta limite, inclusive.  
+Mostrar por consola únicamente el resultado final de la suma.  
+
+Ejemplo (si limite = 5):  
+1 + 2 + 3 + 4 + 5 = 15  
+Salida esperada:  
+15  
+
+**Reglas de la consigna**  
+Usar exclusivamente un bucle for.  
+No usar while.  
+Validar que limite sea mayor que 0 antes de ejecutar el bucle.  
+Usar una variable acumuladora para la suma.  
+No imprimir resultados intermedios.  
+No hardcodear el resultado.  
 No agregar mensajes innecesarios.  
