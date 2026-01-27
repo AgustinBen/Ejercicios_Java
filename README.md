@@ -238,3 +238,38 @@ Usar una variable acumuladora para la suma.
 No imprimir resultados intermedios.  
 No hardcodear el resultado.  
 No agregar mensajes innecesarios.  
+<br>
+
+<h3> Ejercicio 8 – Contar números positivos, negativos y ceros </h3>  
+
+**Conceptos que necesitás dominar**  
+Bucle for: Repetición controlada sobre un rango definido.  
+Condiciones compuestas: Uso de if / else if / else para evaluar múltiples casos excluyentes.  
+Operadores relacionales: Comparaciones (>, <, ==).  
+Contadores múltiples: Uso de varias variables para llevar conteos independientes.  
+Control del flujo: Garantizar que cada valor sea contado una sola vez.  
+
+**Consigna**  
+Declarar una variable entera limite mayor que 0.  
+Recorrer los números desde -limite hasta limite, inclusive.  
+Contar cuántos números son:  
+positivos  
+negativos  
+iguales a cero  
+Al finalizar el recorrido, mostrar por consola únicamente la cantidad de positivos, negativos y ceros.  
+
+Ejemplo (si limite = 2):  
+Números recorridos: -2, -1, 0, 1, 2  
+Positivos: 2  
+Negativos: 2  
+Ceros: 1  
+
+**Reglas de la consigna**  
+Usar exclusivamente un bucle for.  
+No usar while.  
+Validar que limite sea mayor que 0 antes de ejecutar el bucle.  
+Usar tres contadores separados (positivos, negativos, ceros).  
+Cada número debe contabilizarse en un solo caso.  
+No imprimir resultados intermedios.  
+No hardcodear valores.  
+No agregar mensajes innecesarios.  
