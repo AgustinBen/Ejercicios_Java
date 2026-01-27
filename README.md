@@ -81,9 +81,9 @@ Objetivo: Simular problemas reales y preparar la transición a futuros proyectos
 <br>
 <br>
 
-🟢<h2> **EJERCICIOS NIVEL 1** </h2>
+<h2> 🟢 EJERCICIOS NIVEL 1 </h2>
 
-**Ejercicio 1**
+<h3> Ejercicio 1 </h3>
 
 **Conceptos necesarios**    
 Tipos de datos primitivos (int)    
@@ -104,7 +104,7 @@ No crear métodos propios.
 Todo el código debe estar dentro del método main.  
 <br>
 
-**Ejercicio 2**
+<h3> Ejercicio 2 </h3>
 
 **Conceptos necesarios**  
 Tipo de dato primitivo int  
@@ -126,7 +126,7 @@ Todo el código debe estar dentro del método main.
 <br>
 
 
-**Ejercicio 3**  
+<h3> Ejercicio 3 </h3> 
 
 **Conceptos necesarios**  
 Operador módulo (%): permite obtener el resto de una división entera. Un número es par si el resto de dividirlo por 2 es 0.  
@@ -145,7 +145,7 @@ El programa debe funcionar correctamente para cualquier número entero (positivo
 <br>  
 
 
-**Ejercicio 4** – Contar del 1 al N  
+<h3> Ejercicio 4 – Contar del 1 al N  </h3>
 
 **Conceptos necesarios**  
 Bucles (while): Permiten repetir un bloque de código mientras una condición sea verdadera.  
@@ -164,7 +164,7 @@ El bucle debe finalizar correctamente (sin bucles infinitos).
 El código debe ser claro y legible.  
 <br>
 
-**Ejercicio 5** – Números pares hasta N  
+<h3> Ejercicio 5 – Números pares hasta N  </h3>
 
 **Conceptos necesarios**  
 Bucles (while): Repetición controlada mediante una condición lógica.  
@@ -185,7 +185,7 @@ Validar que limite sea mayor que 0 antes de ejecutar el bucle.
 El código debe ser claro y legible.  
 <br>
 
-**Ejercicio 6** – Tabla de multiplicar  
+<h3> Ejercicio 6 – Tabla de multiplicar </h3>
 
 **Conceptos que necesitás dominar**  
 Bucle for: Estructura de repetición con inicialización, condición y actualización claras.  
@@ -211,7 +211,7 @@ El formato de salida debe ser claro y consistente.
 No agregar mensajes innecesarios.  
 <br>
 
-**Ejercicio 7** – Suma de números del 1 al N  
+<h3> Ejercicio 7 – Suma de números del 1 al N </h3>
 
 **Conceptos que necesitás dominar**  
 Bucle for: Repetición controlada cuando se conoce la cantidad de iteraciones.  
