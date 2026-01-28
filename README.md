@@ -273,3 +273,41 @@ Cada número debe contabilizarse en un solo caso.
 No imprimir resultados intermedios.  
 No hardcodear valores.  
 No agregar mensajes innecesarios.  
+<br>
+
+<h3>Ejercicio 9 – Uso de métodos void</h3>  
+
+**Conceptos que necesitás dominar**  
+Declaración de métodos: firma, nombre, parámetros.  
+Métodos void: ejecutan lógica pero no retornan valores.  
+Paso de parámetros por valor.  
+Separación de responsabilidades.  
+Llamada a métodos desde main.  
+
+**Consigna**  
+Crear un método llamado mostrarNumerosDel1AlN.  
+El método debe:  
+Recibir un número entero n  
+Validar que n sea mayor que 0  
+Mostrar por consola los números del 1 hasta n inclusive  
+Desde el main:  
+Declarar una variable limite  
+Llamar al método pasando esa variable como argumento  
+
+Ejemplo (si limite = 5):  
+1  
+2  
+3  
+4  
+5  
+
+**Reglas de la consigna**  
+✔ Usar un método aparte del main  
+✔ El método debe ser static  
+✔ El método debe ser void  
+✔ Usar un bucle for o while  
+❌ No escribir toda la lógica dentro del main  
+❌ No usar return  
+❌ No usar arrays  
+❌ No imprimir mensajes innecesarios  
+<br>
