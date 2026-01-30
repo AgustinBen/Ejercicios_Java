@@ -311,3 +311,37 @@ Ejemplo (si limite = 5):
 ❌ No usar arrays  
 ❌ No imprimir mensajes innecesarios  
 <br>
+
+<h3> Ejercicio 10 – Número mayor </h3>  
+
+**Conceptos necesarios**  
+Métodos con retorno (return):  
+Entender la diferencia entre un método void (no devuelve nada) y un método que devuelve un valor.  
+Saber declarar el tipo de retorno correctamente.  
+Paso de parámetros:  
+Cómo enviar múltiples argumentos a un método.  
+Comprender que el método trabaja con copias de los valores primitivos.  
+Operadores de comparación:  
+>, <, >=, <=, ==  
+Estructura condicional if / else:  
+Tomar decisiones basadas en comparaciones.  
+Separación de responsabilidades:  
+El método calcula.  
+El main muestra el resultado.  
+
+**Consigna**    
+Crear un método llamado obtenerMayor que reciba dos números enteros como parámetros y devuelva el mayor de ellos.  
+En el main:   
+Declarar dos variables enteras.  
+Llamar al método.  
+Guardar el resultado en una variable.  
+Mostrar el resultado por consola.  
+Si ambos números son iguales, el método debe devolver cualquiera de los dos (no hace falta mensaje especial).  
+Reglas de la consigna  
+El método debe devolver un int.  
+No imprimir nada dentro del método.  
+Toda la impresión debe hacerse en main.  
+Usar únicamente if / else (no usar Math.max).  
+No hardcodear el resultado.  
+No repetir lógica en main.  
+<br>
