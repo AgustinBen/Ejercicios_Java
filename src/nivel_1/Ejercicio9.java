@@ -16,7 +16,6 @@ public class Ejercicio9 {
 			}
 		} else {
 			System.out.println("El número debe ser mayor a 0");
-		}
+		  }
 	}
-
 }
