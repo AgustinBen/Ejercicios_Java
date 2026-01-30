@@ -346,3 +346,40 @@ Usar únicamente if / else (no usar Math.max).
 No hardcodear el resultado.  
 No repetir lógica en main.  
 <br>
+
+<h3>Ejercicio 11 – Sumar elementos de un array </h3>  
+
+***Conceptos necesarios**
+
+Arrays (arreglos):  
+Declaración: int[] numeros;  
+Inicialización: int[] numeros = {1, 2, 3};  
+Acceso por índice: numeros[i]  
+Índices comienzan en 0  
+Longitud del array: numeros.length  
+Bucle for tradicional:  
+Recorrido usando índice  
+Condición correcta: i < array.length  
+Evitar ArrayIndexOutOfBoundsException  
+Acumuladores:  
+Variable que empieza en 0  
+Se actualiza en cada iteración  
+Patrón clásico: acumulador += array[i];  
+Separación de responsabilidades:  
+El método calcula la suma  
+main imprime el resultado  
+
+**Consigna**  
+Declarar un array de enteros con al menos 5 números.  
+Crear un método llamado sumarArray que reciba un array de enteros como parámetro.  
+El método debe recorrer el array y devolver la suma total de sus elementos.  
+En main, llamar al método, guardar el resultado y mostrarlo por consola.  
+
+**Reglas de la consigna**  
+El método debe devolver un int.  
+No imprimir nada dentro del método.  
+Usar un for tradicional (no for-each todavía).  
+No usar clases auxiliares ni Streams.  
+No hardcodear la suma.  
+No asumir un tamaño fijo del array (usar .length).  
+<br>
