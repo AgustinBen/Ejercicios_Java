@@ -337,7 +337,8 @@ Llamar al método.
 Guardar el resultado en una variable.  
 Mostrar el resultado por consola.  
 Si ambos números son iguales, el método debe devolver cualquiera de los dos (no hace falta mensaje especial).  
-Reglas de la consigna  
+
+**Reglas**  
 El método debe devolver un int.  
 No imprimir nada dentro del método.  
 Toda la impresión debe hacerse en main.  
