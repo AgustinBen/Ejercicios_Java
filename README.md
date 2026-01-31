@@ -384,48 +384,45 @@ No hardcodear la suma.
 No asumir un tamaño fijo del array (usar .length).  
 <br>
 
-<h3>Ejercicio 12 – Número mayor en un array</h3>
+<h3>Ejercicio 12 – Número mayor en un array</h3>  
 
-**Conceptos necesarios**
-Arrays:
->Declaración e inicialización de arreglos de tipo int.
-Acceso a elementos mediante índices (recordar que comienzan en 0).
-Uso de la propiedad length para recorrer el array correctamente.
+**Conceptos necesarios**  
+Arrays:  
+>Declaración e inicialización de arreglos de tipo int.  
+Acceso a elementos mediante índices (recordar que comienzan en 0).  
+Uso de la propiedad length para recorrer el array correctamente.  
 
-Bucle for tradicional:
->Recorrer el array utilizando un índice.
-Condición correcta: i < array.length.
-Evitar errores como ArrayIndexOutOfBoundsException.
->
+Bucle for tradicional:  
+>Recorrer el array utilizando un índice.  
+Condición correcta: i < array.length.  
+Evitar errores como ArrayIndexOutOfBoundsException.  
 
-Comparaciones y condicional if:
->Uso del operador > para comparar valores.
-Actualizar el valor máximo cuando se encuentra uno mayor.
+Comparaciones y condicional if:  
+>Uso del operador > para comparar valores.  
+Actualizar el valor máximo cuando se encuentra uno mayor.  
 
-Inicialización correcta de variable auxiliar:
-Comprender por qué el valor inicial del “mayor” debe tomarse desde el propio array y no inicializarse arbitrariamente en 0.
+Inicialización correcta de variable auxiliar:  
+>Comprender por qué el valor inicial del “mayor” debe tomarse desde el propio array y no inicializarse arbitrariamente en 0.  
 
-Métodos con retorno:
->Declarar correctamente el tipo de retorno int.
-Separar cálculo y presentación (el método calcula, el main imprime).
+Métodos con retorno:  
+>Declarar correctamente el tipo de retorno int.  
+Separar cálculo y presentación (el método calcula, el main imprime).  
 
-**Consigna**
+**Consigna**  
+Declarar un array de enteros con al menos 5 valores (pueden incluir números negativos).  
+Crear un método llamado obtenerMayorArray que reciba un array de enteros como parámetro y devuelva el número más grande encontrado dentro del array.  
+En el main:  
+>Llamar al método.  
+Guardar el resultado en una variable.  
+Mostrar el resultado por consola.  
 
-Declarar un array de enteros con al menos 5 valores (pueden incluir números negativos).
-Crear un método llamado obtenerMayorArray que reciba un array de enteros como parámetro y devuelva el número más grande encontrado dentro del array.
-
-En el main:
->Llamar al método.
-Guardar el resultado en una variable.
-Mostrar el resultado por consola.
-
-**Reglas**
-
-El método debe devolver un int.
-No imprimir nada dentro del método.
-Usar exclusivamente un for tradicional (no usar for-each todavía).
-No usar Math.max.
-No ordenar el array.
-No hardcodear valores.
-No asumir que todos los números son positivos.
-No inicializar la variable “mayor” en 0 sin justificación.
+**Reglas**  
+El método debe devolver un int.  
+No imprimir nada dentro del método.  
+Usar exclusivamente un for tradicional (no usar for-each todavía).  
+No usar Math.max.  
+No ordenar el array.  
+No hardcodear valores.  
+No asumir que todos los números son positivos.   
+No inicializar la variable “mayor” en 0 sin justificación.  
+<br>
