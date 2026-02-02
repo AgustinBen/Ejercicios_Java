@@ -322,7 +322,7 @@ Paso de parámetros:
 Cómo enviar múltiples argumentos a un método.  
 Comprender que el método trabaja con copias de los valores primitivos.  
 Operadores de comparación:  
->, <, >=, <=, ==  
+ >, <, >=, <=, ==  
 Estructura condicional if / else:  
 Tomar decisiones basadas en comparaciones.  
 Separación de responsabilidades:  
@@ -388,31 +388,31 @@ No asumir un tamaño fijo del array (usar .length).
 
 **Conceptos necesarios**  
 Arrays:  
->Declaración e inicialización de arreglos de tipo int.  
+Declaración e inicialización de arreglos de tipo int.  
 Acceso a elementos mediante índices (recordar que comienzan en 0).  
 Uso de la propiedad length para recorrer el array correctamente.  
 
 Bucle for tradicional:  
->Recorrer el array utilizando un índice.  
+Recorrer el array utilizando un índice.  
 Condición correcta: i < array.length.  
 Evitar errores como ArrayIndexOutOfBoundsException.  
 
 Comparaciones y condicional if:  
->Uso del operador > para comparar valores.  
+Uso del operador > para comparar valores.  
 Actualizar el valor máximo cuando se encuentra uno mayor.  
 
 Inicialización correcta de variable auxiliar:  
->Comprender por qué el valor inicial del “mayor” debe tomarse desde el propio array y no inicializarse arbitrariamente en 0.  
+Comprender por qué el valor inicial del “mayor” debe tomarse desde el propio array y no inicializarse arbitrariamente en 0.  
 
 Métodos con retorno:  
->Declarar correctamente el tipo de retorno int.  
+Declarar correctamente el tipo de retorno int.  
 Separar cálculo y presentación (el método calcula, el main imprime).  
 
 **Consigna**  
 Declarar un array de enteros con al menos 5 valores (pueden incluir números negativos).  
 Crear un método llamado obtenerMayorArray que reciba un array de enteros como parámetro y devuelva el número más grande encontrado dentro del array.  
 En el main:  
->Llamar al método.  
+Llamar al método.  
 Guardar el resultado en una variable.  
 Mostrar el resultado por consola.  
 
@@ -426,3 +426,43 @@ No hardcodear valores.
 No asumir que todos los números son positivos.   
 No inicializar la variable “mayor” en 0 sin justificación.  
 <br>
+
+<h3> Ejercicio 13 – Buscar un elemento en un array </h3>
+
+**Conceptos necesarios**  
+Arrays:  
+Recorrido mediante índice.  
+Uso correcto de array.length.  
+Acceso a elementos con array[i].  
+Métodos con retorno boolean:  
+Comprender qué significa devolver true o false.  
+Entender que un método puede terminar antes usando return.    
+Corte anticipado del bucle:  
+Entender que si ya encontraste el valor buscado, no tiene sentido seguir recorriendo el array.  
+Uso de return dentro del for para mejorar eficiencia.  
+Separación de responsabilidades:  
+El método realiza la búsqueda.  
+El main decide qué hacer con el resultado.  
+
+**Consigna**  
+Declarar un array de enteros con al menos 6 valores.  
+Crear un método llamado contieneNumero que reciba:  
+Un array de enteros.  
+Un número a buscar.  
+El método debe recorrer el array y devolver true si el número se encuentra dentro del array, o false si no está.  
+En el main:  
+Llamar al método.    
+Guardar el resultado en una variable booleana.  
+Mostrar por consola si el número fue encontrado o no.  
+
+**Reglas**  
+El método debe devolver boolean.   
+No imprimir nada dentro del método.  
+Usar exclusivamente un for tradicional.  
+No usar estructuras auxiliares ni colecciones.  
+No usar break (usar return para cortar la ejecución).  
+No recorrer el array completo si ya encontraste el número.  
+Validar que el array no sea null antes de recorrerlo.  
+<br>
+
+
