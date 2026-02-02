@@ -391,19 +391,14 @@ Arrays:
 Declaración e inicialización de arreglos de tipo int.  
 Acceso a elementos mediante índices (recordar que comienzan en 0).  
 Uso de la propiedad length para recorrer el array correctamente.  
-
 Bucle for tradicional:  
 Recorrer el array utilizando un índice.  
 Condición correcta: i < array.length.  
 Evitar errores como ArrayIndexOutOfBoundsException.  
-
 Comparaciones y condicional if:  
-Uso del operador > para comparar valores.  
-Actualizar el valor máximo cuando se encuentra uno mayor.  
-
+Uso del operador > para comparar valores.   
 Inicialización correcta de variable auxiliar:  
 Comprender por qué el valor inicial del “mayor” debe tomarse desde el propio array y no inicializarse arbitrariamente en 0.  
-
 Métodos con retorno:  
 Declarar correctamente el tipo de retorno int.  
 Separar cálculo y presentación (el método calcula, el main imprime).  
