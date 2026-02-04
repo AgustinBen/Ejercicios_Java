@@ -460,4 +460,35 @@ No recorrer el array completo si ya encontraste el número.
 Validar que el array no sea null antes de recorrerlo.  
 <br>
 
+<h3>Ejercicio 14 – Contar caracteres en un String</h3>  
 
+**Conceptos necesarios**  
+String:  
+Tipo de dato inmutable.  
+Uso del método length().  
+Acceso a caracteres con charAt(i).  
+Bucle for:  
+Recorrido desde índice 0 hasta length() - 1.  
+Condicional if:  
+Comparación de caracteres usando ==.  
+Métodos con retorno:  
+Devolver un int como resultado del conteo.  
+Separar lógica de impresión.  
+
+**Consigna**  
+Crear un método llamado contarCaracter que reciba:  
+Un String  
+Un carácter (char)  
+El método debe devolver cuántas veces aparece ese carácter dentro del String.  
+En main:  
+Declarar un String.  
+Declarar un carácter a buscar.  
+Llamar al método y mostrar el resultado.  
+
+**Reglas**  
+El método debe devolver int.  
+No imprimir dentro del método.  
+Usar for tradicional.  
+No usar métodos avanzados como replace o split.  
+Validar que el String no sea null antes de recorrerlo.  
+<br>
