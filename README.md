@@ -492,3 +492,32 @@ Usar for tradicional.
 No usar métodos avanzados como replace o split.  
 Validar que el String no sea null antes de recorrerlo.  
 <br>
+
+Ejercicio 15 – Comparar Strings correctamente
+
+**Conceptos necesarios**  
+String:  
+Es un objeto, no un tipo primitivo.  
+No se compara con == para verificar contenido.  
+Método equals():  
+Se usa para comparar el contenido de dos Strings.  
+Diferencia entre == (referencia) y equals (contenido).  
+Métodos booleanos:  
+Devolver true o false según el resultado de la comparación.  
+Validación básica:  
+Verificar que los Strings no sean null antes de compararlos.  
+
+**Consigna**  
+Crear un método llamado sonIguales que reciba dos Strings como parámetros y devuelva true si ambos textos son iguales, o false en caso contrario.  
+En main:  
+Declarar dos Strings.  
+Llamar al método.  
+Mostrar el resultado por consola.  
+
+**Reglas**  
+El método debe devolver boolean.  
+No usar == para comparar Strings.  
+Usar equals() para la comparación.  
+No imprimir dentro del método.  
+Validar que ninguno de los Strings sea null antes de comparar.  
+<br>
