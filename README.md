@@ -493,7 +493,7 @@ No usar métodos avanzados como replace o split.
 Validar que el String no sea null antes de recorrerlo.  
 <br>
 
-Ejercicio 15 – Comparar Strings correctamente
+<h3>Ejercicio 15 – Comparar Strings correctamente</h3>  
 
 **Conceptos necesarios**  
 String:  
