@@ -521,3 +521,39 @@ Usar equals() para la comparación.
 No imprimir dentro del método.  
 Validar que ninguno de los Strings sea null antes de comparar.  
 <br>
+
+<h3>Ejercicio 16 – Contar ocurrencias de un carácter en un array de Strings </h3>
+
+**Conceptos necesarios**  
+Arrays:  
+Recorrido de arrays de Strings con for tradicional.  
+Acceso a cada String mediante índices.  
+Strings:  
+Uso de charAt() y length().  
+Comparación de caracteres con ==.  
+Métodos con retorno:  
+Devolver int con la cantidad total de ocurrencias.  
+Separar cálculo de impresión.  
+Bucles anidados:  
+Recorrer cada String dentro del array.  
+Recorrer cada carácter dentro de cada String.  
+Validación:  
+Proteger contra null en el array o en cualquier String del mismo.  
+
+**Consigna**  
+Declarar un array de Strings con al menos 5 elementos.  
+Crear un método llamado contarCaracterEnArray que reciba:  
+El array de Strings  
+Un carácter a buscar  
+El método debe devolver la cantidad total de veces que aparece ese carácter en todos los Strings del array.  
+En main:  
+Llamar al método.  
+Mostrar el resultado por consola.  
+
+**Reglas**  
+Usar únicamente for tradicional.  
+No usar métodos avanzados de String como replace o split.  
+Validar que el array y los Strings no sean null.  
+El método debe devolver int.  
+No imprimir nada dentro del método.  
+<br>
