@@ -586,3 +586,39 @@ No imprimir nada dentro del método.
 No hardcodear resultados.  
 No usar librerías externas.  
 Cuidar la división (no debe ser entera).  
+<br>
+
+<h3>Ejercicio 18 – Validación robusta de entrada </h3>  
+
+**Conceptos necesarios**  
+Validaciones de entrada:  
+No confiar en los datos recibidos. Siempre verificar antes de procesar.  
+Cláusulas de guarda (guard clauses):  
+Validar al inicio del método y cortar la ejecución si algo es inválido.  
+IllegalArgumentException:  
+Usar excepciones cuando el parámetro recibido no cumple el contrato.  
+Separación de responsabilidades:  
+El método valida y procesa.  
+El main maneja la ejecución.  
+
+**Consigna**  
+Crear un método llamado calcularDivision que:  
+Reciba dos números enteros.  
+Devuelva el resultado de la división como double.  
+Debe validar:  
+Que el divisor no sea 0.  
+Que ambos números estén dentro del rango -1000 a 1000 (inclusive).  
+Si alguna validación falla, debe lanzar IllegalArgumentException.  
+En el main:  
+Declarar dos variables.  
+Llamar al método.  
+Mostrar el resultado.  
+
+**Reglas**  
+El método debe devolver double.  
+No imprimir nada dentro del método.  
+Todas las validaciones deben hacerse dentro del método.  
+No usar try-catch todavía.  
+No usar Scanner.  
+No hardcodear el resultado.  
+No dividir antes de validar.  
