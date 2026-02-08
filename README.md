@@ -557,3 +557,32 @@ Validar que el array y los Strings no sean null.
 El método debe devolver int.  
 No imprimir nada dentro del método.  
 <br>
+<br>
+
+<h2> 🟡 EJERCICIOS NIVEL 2 </h2>
+
+<h3>Ejercicio 17 – Promedio de un array</h3>  
+
+**Conceptos necesarios**  
+Arrays: Recorrido completo usando .length.  
+Acumuladores: Sumar valores progresivamente.  
+Métodos con retorno: Devolver un valor calculado.  
+Validación: Manejar array null o vacío.  
+Conversión de tipos: Entender división entre enteros y decimales.  
+
+**Consigna**  
+Crear un método llamado calcularPromedio que:  
+Reciba un array de enteros.  
+Devuelva el promedio de los valores como double.  
+En el main:  
+Declarar un array con al menos 5 números.  
+Llamar al método.  
+Mostrar el resultado.  
+
+**Reglas**  
+El método debe devolver double.  
+Validar que el array no sea null ni vacío.  
+No imprimir nada dentro del método.  
+No hardcodear resultados.  
+No usar librerías externas.  
+Cuidar la división (no debe ser entera).  
