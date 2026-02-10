@@ -557,3 +557,68 @@ Validar que el array y los Strings no sean null.
 El método debe devolver int.  
 No imprimir nada dentro del método.  
 <br>
+<br>
+
+<h2> 🟡 EJERCICIOS NIVEL 2 </h2>
+
+<h3>Ejercicio 17 – Promedio de un array</h3>  
+
+**Conceptos necesarios**  
+Arrays: Recorrido completo usando .length.  
+Acumuladores: Sumar valores progresivamente.  
+Métodos con retorno: Devolver un valor calculado.  
+Validación: Manejar array null o vacío.  
+Conversión de tipos: Entender división entre enteros y decimales.  
+
+**Consigna**  
+Crear un método llamado calcularPromedio que:  
+Reciba un array de enteros.  
+Devuelva el promedio de los valores como double.  
+En el main:  
+Declarar un array con al menos 5 números.  
+Llamar al método.  
+Mostrar el resultado.  
+
+**Reglas**  
+El método debe devolver double.  
+Validar que el array no sea null ni vacío.  
+No imprimir nada dentro del método.  
+No hardcodear resultados.  
+No usar librerías externas.  
+Cuidar la división (no debe ser entera).  
+<br>
+
+<h3>Ejercicio 18 – Validación robusta de entrada </h3>  
+
+**Conceptos necesarios**  
+Validaciones de entrada:  
+No confiar en los datos recibidos. Siempre verificar antes de procesar.  
+Cláusulas de guarda (guard clauses):  
+Validar al inicio del método y cortar la ejecución si algo es inválido.  
+IllegalArgumentException:  
+Usar excepciones cuando el parámetro recibido no cumple el contrato.  
+Separación de responsabilidades:  
+El método valida y procesa.  
+El main maneja la ejecución.  
+
+**Consigna**  
+Crear un método llamado calcularDivision que:  
+Reciba dos números enteros.  
+Devuelva el resultado de la división como double.  
+Debe validar:  
+Que el divisor no sea 0.  
+Que ambos números estén dentro del rango -1000 a 1000 (inclusive).  
+Si alguna validación falla, debe lanzar IllegalArgumentException.  
+En el main:  
+Declarar dos variables.  
+Llamar al método.  
+Mostrar el resultado.  
+
+**Reglas**  
+El método debe devolver double.  
+No imprimir nada dentro del método.  
+Todas las validaciones deben hacerse dentro del método.  
+No usar try-catch todavía.  
+No usar Scanner.  
+No hardcodear el resultado.  
+No dividir antes de validar.  
