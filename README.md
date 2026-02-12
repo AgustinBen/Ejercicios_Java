@@ -622,3 +622,46 @@ No usar try-catch todavía.
 No usar Scanner.  
 No hardcodear el resultado.  
 No dividir antes de validar.  
+<br>
+
+<h3>Ejercicio 19 – Separación real de responsabilidades</h3>
+
+**Conceptos necesarios**  
+Separación de lógica en métodos:  
+Cada método debe tener una única responsabilidad clara.  
+Un método no debe hacer varias cosas mezcladas (calcular + imprimir + validar + decidir).  
+Reutilización:  
+Si una lógica puede usarse en otro contexto, debe estar aislada en un método.  
+Métodos que colaboran entre sí:  
+Un método puede llamar a otro para cumplir su tarea.  
+Código limpio:  
+Evitar duplicación.  
+Evitar lógica repetida en main.  
+
+**Consigna**  
+Crear un programa que:  
+Declare un array de enteros.  
+Tenga un método obtenerMayor(int[] array)  
+Tenga un método obtenerMenor(int[] array)  
+Tenga un método calcularPromedio(int[] array)  
+Luego, crear un método adicional llamado:  
+mostrarEstadisticas(int[] array)  
+Ese método debe:  
+Llamar a los tres métodos anteriores.  
+Mostrar por consola:  
+El mayor  
+El menor  
+El promedio  
+En main, solo debe existir:  
+La declaración del array.  
+La llamada a mostrarEstadisticas.  
+
+**Reglas**  
+Validar que el array no sea null ni vacío (una sola vez, no repetir validaciones innecesarias).  
+No imprimir dentro de los métodos de cálculo (obtenerMayor, obtenerMenor, calcularPromedio).  
+La impresión debe hacerse únicamente en mostrarEstadisticas.  
+No duplicar lógica.  
+No usar clases externas.  
+No usar streams.  
+No usar librerías matemáticas.  
+<br>
