@@ -667,7 +667,8 @@ No usar librerías matemáticas.
 <br>
 
 <h3> Ejercicio 20 – Conteo y clasificación de datos</h3>  
-**Conceptos necesarios**    
+
+**Conceptos necesarios**      
 Separación de lógica en métodos:  
 Cada método debe realizar una única tarea específica.  
   
