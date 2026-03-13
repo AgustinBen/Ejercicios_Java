@@ -717,3 +717,44 @@ No usar clases externas.
 No usar streams.  
 No usar librerías matemáticas.  
 <br>  
+
+<h3>Ejercicio 21 – Búsqueda de un elemento</h3>
+
+**Conceptos necesarios**  
+Para resolver este ejercicio deberías saber usar:  
+Bucle for para recorrer un array.  
+Comparaciones con if.  
+Retornar valores desde métodos.  
+Devolver -1 cuando un elemento no existe.  
+
+**Consigna**  
+Crear un programa que:  
+Declare un array de enteros.  
+Crear un método llamado:  
+buscarIndice(int[] array, int numeroBuscado)  
+Este método debe:  
+Recorrer el array.  
+Si encuentra el número, devolver su índice.  
+Si no lo encuentra, devolver -1.  
+Luego crear un método:  
+mostrarResultadoBusqueda(int[] array, int numeroBuscado)  
+Este método debe:  
+Llamar a buscarIndice.  
+Mostrar por consola:  
+Si el número fue encontrado:  
+El número X se encuentra en el índice Y  
+Si no fue encontrado:  
+El número X no se encuentra en el array  
+En main  
+Solo debe existir:  
+Declaración del array.  
+Declaración del número a buscar.  
+Llamada a mostrarResultadoBusqueda.  
+
+**Reglas**  
+Validar que el array no sea null ni esté vacío una sola vez.  
+El método buscarIndice no debe imprimir nada, solo devolver el resultado.  
+La impresión debe realizarse únicamente en mostrarResultadoBusqueda.  
+No usar streams.  
+No usar librerías externas.  
+<br>
