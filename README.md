@@ -665,3 +665,53 @@ No usar clases externas.
 No usar streams.  
 No usar librerías matemáticas.  
 <br>
+
+<h3> Ejercicio 20 – Conteo y clasificación de datos</h3>  
+**Conceptos necesarios**    
+Separación de lógica en métodos:  
+Cada método debe realizar una única tarea específica.  
+  
+Reutilización:  
+Si una lógica puede utilizarse en otros contextos, debe estar aislada en un método.  
+  
+Conteo de elementos:  
+Es común recorrer una colección para contar cuántos elementos cumplen una determinada condición.  
+  
+Colaboración entre métodos:  
+Un método principal puede llamar a otros métodos que realizan tareas específicas.  
+  
+Código limpio:  
+Evitar duplicar lógica.  
+Evitar realizar cálculos directamente dentro de main.  
+
+**Consigna**  
+Crear un programa que:  
+Declare un array de números enteros.  
+Crear los siguientes métodos:  
+contarPares(int[] array)  
+contarImpares(int[] array)  
+contarCeros(int[] array)  
+
+Cada método debe recorrer el array y devolver la cantidad de elementos que cumplen la condición correspondiente.  
+Luego, crear un método adicional llamado:  
+mostrarConteos(int[] array)  
+Ese método debe:  
+Llamar a los tres métodos anteriores.  
+
+Mostrar por consola:  
+Cantidad de números pares  
+Cantidad de números impares  
+Cantidad de ceros    
+
+En main, solo debe existir:  
+La declaración del array.  
+La llamada a mostrarConteos.  
+
+**Reglas**  
+Validar que el array no sea null ni esté vacío una sola vez.  
+No imprimir dentro de los métodos de cálculo (contarPares, contarImpares, contarCeros).  
+La impresión debe realizarse únicamente en mostrarConteos.  
+No duplicar lógica.  
+No usar clases externas.  
+No usar streams.  
+No usar librerías matemáticas.  
