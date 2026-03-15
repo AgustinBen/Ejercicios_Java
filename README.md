@@ -752,3 +752,56 @@ La impresión debe realizarse únicamente en mostrarResultadoBusqueda.
 No usar streams.  
 No usar librerías externas.  
 <br>
+
+<h3>Ejercicio 22 – Invertir un array</h3>
+
+**Conceptos necesarios**  
+Para resolver este ejercicio deberías saber usar:  
+Bucle for.  
+Crear un nuevo array.  
+Acceder a posiciones de un array mediante índices.  
+Usar array.length.  
+  
+**Consigna**  
+Crear un programa que:  
+Declare un array de enteros.  
+
+Crear un método llamado:  
+invertirArray(int[] array)  
+Este método debe:   
+Crear un nuevo array del mismo tamaño.    
+Copiar los elementos del array original en orden inverso.  
+Devolver el nuevo array invertido.  
+  
+Ejemplo:  
+Array original:  
+{5, 8, 2, 9}  
+Array invertido:  
+{9, 2, 8, 5}  
+  
+Luego crear un método:  
+mostrarArray(int[] array)  
+Este método debe:  
+Recorrer el array.  
+Mostrar todos los números en una sola línea.  
+  
+Finalmente crear un método:  
+mostrarResultado(int[] array)  
+Este método debe:  
+Llamar a invertirArray.  
+Mostrar:  
+El array original.  
+El array invertido.
+  
+En main  
+Solo debe existir:  
+La declaración del array.  
+La llamada a mostrarResultado.  
+  
+**Reglas**  
+Validar que el array no sea null ni esté vacío una sola vez.  
+El método invertirArray no debe imprimir nada, solo devolver el nuevo array.  
+La impresión debe realizarse únicamente en mostrarArray o mostrarResultado.  
+No usar streams.  
+No usar colecciones (ArrayList, etc).  
+<br>
