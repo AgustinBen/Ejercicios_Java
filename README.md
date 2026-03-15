@@ -322,7 +322,7 @@ Paso de parámetros:
 Cómo enviar múltiples argumentos a un método.  
 Comprender que el método trabaja con copias de los valores primitivos.  
 Operadores de comparación:  
- >, <, >=, <=, ==  
+ <, >, >=, <=, ==  
 Estructura condicional if / else:  
 Tomar decisiones basadas en comparaciones.  
 Separación de responsabilidades:  
