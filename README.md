@@ -302,14 +302,14 @@ Ejemplo (si limite = 5):
 5  
 
 **Reglas de la consigna**  
-✔ Usar un método aparte del main  
-✔ El método debe ser static  
-✔ El método debe ser void  
-✔ Usar un bucle for o while  
-❌ No escribir toda la lógica dentro del main  
-❌ No usar return  
-❌ No usar arrays  
-❌ No imprimir mensajes innecesarios  
+Usar un método aparte del main  
+El método debe ser static  
+El método debe ser void  
+Usar un bucle for o while  
+No escribir toda la lógica dentro del main  
+No usar return  
+No usar arrays  
+No imprimir mensajes innecesarios  
 <br>
 
 <h3> Ejercicio 10 – Número mayor </h3>  
