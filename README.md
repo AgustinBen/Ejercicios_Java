@@ -859,5 +859,42 @@ No usar colecciones (ArrayList, Set, etc.).
 No usar estructuras auxiliares adicionales.  
 <br>
 
+<h3>Ejercicio 24 – Búsqueda con entrada de usuario y manejo de errores</h3>
+
+**Conceptos necesarios**
+Uso de Scanner
+try-catch para manejar errores de entrada (InputMismatchException)
+Búsqueda en arrays
+Separación de lógica en métodos
+
+**Consigna**
+Crear un programa que:
+Declare un array de enteros.
+Pida al usuario que ingrese un número por teclado.
+Crear un método:
+buscarIndice(int[] array, int numero)
+Devuelve el índice si lo encuentra
+Devuelve -1 si no existe
+Crear un método:
+pedirNumero()
+Debe leer un número usando Scanner
+Debe usar try-catch para evitar que el programa se rompa si el usuario ingresa algo inválido
+Si ocurre un error, mostrar un mensaje y volver a pedir el número
+Crear un método:
+mostrarResultado(int[] array)
+Llama a pedirNumero
+Llama a buscarIndice
+Muestra el resultado
+
+En main
+Solo debe existir:
+Declaración del array
+Llamada a mostrarResultado
+
+**Reglas**
+Validar array una sola vez.
+No imprimir dentro de buscarIndice.
+El try-catch debe estar únicamente en pedirNumero.
+<br>
 
 </details>
