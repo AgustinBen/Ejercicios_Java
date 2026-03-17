@@ -558,7 +558,7 @@ Validar que el array y los Strings no sean null.
 El método debe devolver int.  
 No imprimir nada dentro del método.  
 </details>
-<br>
+
 <br>
 
 <details>
@@ -807,6 +807,57 @@ El método invertirArray no debe imprimir nada, solo devolver el nuevo array.
 La impresión debe realizarse únicamente en mostrarArray o mostrarResultado.  
 No usar streams.  
 No usar colecciones (ArrayList, etc).  
+<br>
+
+<h3>Ejercicio 23 – Detectar números duplicados</h3>
+
+**Conceptos necesarios**
+Para resolver este ejercicio deberías saber usar:
+Bucle for.
+Comparar elementos del array usando índices distintos.
+Usar dos bucles anidados.
+Evitar comparar un elemento consigo mismo.
+
+**Consigna**
+Crear un programa que:
+Declare un array de números enteros.
+Crear un método llamado:
+tieneDuplicados(int[] array)
+Este método debe:
+Recorrer el array.
+Detectar si existe al menos un número repetido.
+Devolver:
+true si hay duplicados.
+false si todos los números son distintos.
+
+Ejemplo:
+Array:
+{3, 7, 2, 9, 7}
+Resultado:
+true
+Porque el número 7 aparece dos veces.
+Luego crear un método:
+mostrarResultado(int[] array)
+
+Este método debe:
+Llamar a tieneDuplicados.
+Mostrar por consola:
+Si existen duplicados:
+El array contiene números duplicados
+Si no existen:
+Todos los números del array son únicos
+
+En main
+Solo debe existir:
+La declaración del array.
+La llamada a mostrarResultado.
+
+**Reglas**
+Validar que el array no sea null ni esté vacío una sola vez.
+El método tieneDuplicados no debe imprimir nada, solo devolver el resultado.
+No usar streams.
+No usar colecciones (ArrayList, Set, etc.).
+No usar estructuras auxiliares adicionales.
 <br>
 
 </details>
