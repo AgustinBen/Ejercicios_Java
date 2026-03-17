@@ -561,7 +561,8 @@ No imprimir nada dentro del método.
 <br>
 <br>
 
-<h2> 🟡 EJERCICIOS NIVEL 2 </h2>
+<details>
+<summary><h2> 🟡 VER EJERCICIOS NIVEL 2 </h2></summary>
 
 <h3>Ejercicio 17 – Promedio de un array</h3>  
 
@@ -807,3 +808,5 @@ La impresión debe realizarse únicamente en mostrarArray o mostrarResultado.
 No usar streams.  
 No usar colecciones (ArrayList, etc).  
 <br>
+
+</details>
