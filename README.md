@@ -79,7 +79,6 @@ Objetivo: Simular problemas reales y preparar la transición a futuros proyectos
 28. Mini proyecto integrador
 <br>
 <br>
-<br>
 
 <details>
 <summary><h2> 🟢 VER EJERCICIOS NIVEL 1 </h2> </summary>
