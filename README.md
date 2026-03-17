@@ -834,10 +834,10 @@ Array:
 {3, 7, 2, 9, 7}  
 Resultado:  
 true  
-Porque el número 7 aparece dos veces.  
+Porque el número 7 aparece dos veces. 
+  
 Luego crear un método:  
 mostrarResultado(int[] array)  
-  
 Este método debe:  
 Llamar a tieneDuplicados.  
 Mostrar por consola:  
