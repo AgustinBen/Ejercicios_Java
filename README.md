@@ -81,7 +81,8 @@ Objetivo: Simular problemas reales y preparar la transición a futuros proyectos
 <br>
 <br>
 
-<h2> 🟢 EJERCICIOS NIVEL 1 </h2>
+<details>
+<summary><h2> 🟢 VER EJERCICIOS NIVEL 1 </h2> </summary>
 
 <h3> Ejercicio 1 </h3>
 
@@ -556,6 +557,7 @@ No usar métodos avanzados de String como replace o split.
 Validar que el array y los Strings no sean null.  
 El método debe devolver int.  
 No imprimir nada dentro del método.  
+</details>
 <br>
 <br>
 
