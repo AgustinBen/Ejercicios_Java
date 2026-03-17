@@ -7,7 +7,7 @@ Se recomienda solicitarle a la **IA** nuevos ejercicios variados en cada nivel y
 <br>
 <br>
 <br>
-🟢 NIVEL 1 – Fundamentos básicos  
+🟢 NIVEL 1 – Fundamentos básicos   
 Objetivo: Dominar la sintaxis básica de Java y desarrollar el hábito de escribir código correcto, legible y comprensible.
 
 1. Variables, tipos primitivos y operadores
@@ -22,7 +22,7 @@ Objetivo: Dominar la sintaxis básica de Java y desarrollar el hábito de escrib
 
 6. Strings (inmutabilidad, métodos clave)
 <br>   
-🟡 NIVEL 2 – Programación estructurada correcta  
+🟡 NIVEL 2 – Programación estructurada correcta   
 Objetivo: Aprender a organizar la lógica del programa de forma correcta y reutilizable.
 
 7. Validaciones de entrada
@@ -35,7 +35,7 @@ Objetivo: Aprender a organizar la lógica del programa de forma correcta y reuti
 
 11. Algoritmos simples (búsqueda, conteo, máximos/mínimos)
 <br>
-🔵 NIVEL 3 – Programación Orientada a Objetos (POO real)  
+🔵 NIVEL 3 – Programación Orientada a Objetos (POO real)   
 Objetivo: Modelar correctamente un dominio usando clases, objetos y relaciones entre ellos.
 
 12. Clases y objetos
@@ -52,7 +52,7 @@ Objetivo: Modelar correctamente un dominio usando clases, objetos y relaciones e
 
 18. equals, hashCode, toString
 <br>  
-🟠 NIVEL 4 – Colecciones y diseño  
+🟠 NIVEL 4 – Colecciones y diseño   
 Objetivo: Elegir estructuras de datos adecuadas y escribir código mantenible.
 
 19. List, Set, Map
@@ -65,7 +65,7 @@ Objetivo: Elegir estructuras de datos adecuadas y escribir código mantenible.
 
 23. Diseño de un pequeño sistema
 <br>   
-🔴 NIVEL 5 - Java – Nivel Intermedio (Fundamentos Modernos)
+🔴 NIVEL 5 - Java – Nivel Intermedio (Fundamentos Modernos)  
 Objetivo: Simular problemas reales y preparar la transición a futuros proyectos.
 
 24. Manejo avanzado de excepciones
@@ -592,10 +592,10 @@ Cuidar la división (no debe ser entera).
 
 <h3>Ejercicio 18 – Validación robusta de entrada </h3>  
 
-**Conceptos necesarios**  
-Validaciones de entrada:  
-No confiar en los datos recibidos. Siempre verificar antes de procesar.  
-Cláusulas de guarda (guard clauses):  
+**Conceptos necesarios**    
+Validaciones de entrada:    
+No confiar en los datos recibidos. Siempre verificar antes de procesar.   
+Cláusulas de guarda (guard clauses):   
 Validar al inicio del método y cortar la ejecución si algo es inválido.  
 IllegalArgumentException:  
 Usar excepciones cuando el parámetro recibido no cumple el contrato.  
@@ -810,53 +810,54 @@ No usar colecciones (ArrayList, etc).
 
 <h3>Ejercicio 23 – Detectar números duplicados</h3>
 
-**Conceptos necesarios**
-Para resolver este ejercicio deberías saber usar:
-Bucle for.
-Comparar elementos del array usando índices distintos.
-Usar dos bucles anidados.
-Evitar comparar un elemento consigo mismo.
-
-**Consigna**
-Crear un programa que:
-Declare un array de números enteros.
-Crear un método llamado:
-tieneDuplicados(int[] array)
-Este método debe:
-Recorrer el array.
-Detectar si existe al menos un número repetido.
-Devolver:
-true si hay duplicados.
-false si todos los números son distintos.
-
-Ejemplo:
-Array:
-{3, 7, 2, 9, 7}
-Resultado:
-true
-Porque el número 7 aparece dos veces.
-Luego crear un método:
-mostrarResultado(int[] array)
-
-Este método debe:
-Llamar a tieneDuplicados.
-Mostrar por consola:
-Si existen duplicados:
-El array contiene números duplicados
-Si no existen:
-Todos los números del array son únicos
-
-En main
-Solo debe existir:
-La declaración del array.
-La llamada a mostrarResultado.
-
-**Reglas**
-Validar que el array no sea null ni esté vacío una sola vez.
-El método tieneDuplicados no debe imprimir nada, solo devolver el resultado.
-No usar streams.
-No usar colecciones (ArrayList, Set, etc.).
-No usar estructuras auxiliares adicionales.
+**Conceptos necesarios**  
+Para resolver este ejercicio deberías saber usar:  
+Bucle for.  
+Comparar elementos del array usando índices distintos.  
+Usar dos bucles anidados.  
+Evitar comparar un elemento consigo mismo.  
+  
+**Consigna**  
+Crear un programa que:  
+Declare un array de números enteros.  
+Crear un método llamado:  
+tieneDuplicados(int[] array)  
+Este método debe:  
+Recorrer el array.  
+Detectar si existe al menos un número repetido.  
+Devolver:  
+true si hay duplicados.  
+false si todos los números son distintos.  
+  
+Ejemplo:  
+Array:  
+{3, 7, 2, 9, 7}  
+Resultado:  
+true  
+Porque el número 7 aparece dos veces.  
+Luego crear un método:  
+mostrarResultado(int[] array)  
+  
+Este método debe:  
+Llamar a tieneDuplicados.  
+Mostrar por consola:  
+Si existen duplicados:   
+El array contiene números duplicados  
+Si no existen:  
+Todos los números del array son únicos  
+  
+En main  
+Solo debe existir:  
+La declaración del array.  
+La llamada a mostrarResultado.  
+  
+**Reglas**  
+Validar que el array no sea null ni esté vacío una sola vez.  
+El método tieneDuplicados no debe imprimir nada, solo devolver el resultado.  
+No usar streams.  
+No usar colecciones (ArrayList, Set, etc.).  
+No usar estructuras auxiliares adicionales.  
 <br>
+
 
 </details>
