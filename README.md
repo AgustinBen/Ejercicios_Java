@@ -885,8 +885,7 @@ mostrarResultado(int[] array)
 Llama a pedirNumero  
 Llama a buscarIndice  
 Muestra el resultado  
-  
-En main  
+*En main*  
 Solo debe existir:  
 Declaración del array  
 Llamada a mostrarResultado  
@@ -896,5 +895,45 @@ Validar array una sola vez.
 No imprimir dentro de buscarIndice.  
 El try-catch debe estar únicamente en pedirNumero.  
 <br>
+
+<h3>Ejercicio 25 – Sumar hasta número válido (con control de errores)</h3>
+
+**Conceptos necesarios**  
+Scanner  
+try-catch  
+Bucles (while)  
+Acumulador  
+  
+**Consigna**  
+Crear un programa que:  
+Pida al usuario ingresar números enteros.  
+El programa debe:  
+Seguir pidiendo números hasta que el usuario ingrese 0  
+Sumar todos los números ingresados (excepto el 0)  
+Mostrar el resultado final  
+Crear los siguientes métodos:  
+pedirNumero()  
+Lee un número con Scanner  
+Usa try-catch para validar entrada  
+Si hay error, vuelve a pedir  
+calcularSuma()  
+Usa un bucle para pedir números hasta que se ingrese 0  
+Va acumulando la suma  
+Devuelve el resultado  
+mostrarResultado()  
+Llama a calcularSuma  
+Muestra la suma total  
+*En main*  
+Solo debe existir:   
+Llamada a mostrarResultado  
+  
+**Reglas**  
+No usar variables globales.  
+El try-catch solo debe estar en pedirNumero.  
+No imprimir dentro de calcularSuma.  
+<br>
+
+
+
 
 </details>
