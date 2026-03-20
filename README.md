@@ -931,9 +931,57 @@ Llamada a mostrarResultado
 No usar variables globales.  
 El try-catch solo debe estar en pedirNumero.  
 No imprimir dentro de calcularSuma.  
+</details>
+
 <br>
 
+<details>
+  <summary><h2>🔵 VER EJERCICIOS NIVEL 3 </h2></summary>
 
+<h3>Ejercicio 26 – Primera clase y uso de objetos</h3>
 
+**Conceptos necesarios**  
+Crear una clase  
+Definir atributos  
+Crear un constructor  
+Usar métodos no static  
+Crear objetos con new  
+  
+**Consigna**  
+Crear una clase llamada:  
+Persona  
+La clase debe tener:  
+Atributos:  
+String nombre  
+int edad  
+Métodos:  
+esMayorDeEdad()  
+Devuelve true si la edad es mayor o igual a 18  
+Devuelve false en caso contrario  
+*Constructor*:  
+Debe recibir:  
+nombre y edad  
+y asignarlos a los atributos.  
+Programa principal  
+*En tu main*:  
+Crear un objeto Persona  
+Mostrar:  
+El nombre  
+La edad  
+Si es mayor de edad o no  
+Ejemplo esperado  
+Nombre: Juan  
+Edad: 20  
+Es mayor de edad: true  
+  
+**Reglas**  
+No usar static en los métodos de la clase Persona.  
+No imprimir dentro de esMayorDeEdad.  
+La lógica debe estar dentro de la clase, no en main.  
+<br>
 
+  
 </details>
+
+
+
