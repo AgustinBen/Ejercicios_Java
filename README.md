@@ -980,6 +980,50 @@ No imprimir dentro de esMayorDeEdad.
 La lógica debe estar dentro de la clase, no en main.  
 <br>
 
+
+<h3>Ejercicio 27 – Trabajar con múltiples objetos</h3>
+
+**Conceptos necesarios**  
+Crear varios objetos  
+Usar arrays de objetos  
+Llamar métodos sobre objetos  
+Comparar datos entre objetos  
+  
+**Consigna**  
+Utilizando la clase Persona del ejercicio anterior:  
+Crear un programa que:  
+Declare un array de objetos Persona.  
+Crear un método:  
+obtenerPersonaMayor(Persona[] personas)  
+Este método debe:  
+Recorrer el array  
+Encontrar la persona con mayor edad  
+Devolver esa persona  
+Crear un método:  
+mostrarResultado(Persona[] personas)   
+Este método debe:  
+Llamar a obtenerPersonaMayor  
+Mostrar:  
+La persona con mayor edad es: X (edad Y)  
+*En main*  
+Solo debe existir:  
+La creación del array de personas  
+La llamada a mostrarResultado  
+  
+**Reglas**  
+Validar que el array no sea null ni esté vacío.  
+No usar streams.  
+No imprimir dentro de obtenerPersonaMayor.  
+Usar los métodos de la clase Persona (no acceder directamente a atributos si los hiciste private).  
+<br>
+
+
+
+
+
+
+
+
   
 </details>
 
