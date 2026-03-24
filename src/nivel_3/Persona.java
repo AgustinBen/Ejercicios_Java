@@ -12,7 +12,7 @@ public class Persona {
 		
 	}
 	
-	public  boolean esMayorDeEdad() {
+	public boolean esMayorDeEdad() {
 		
 		return edad >= 18;
 	}
