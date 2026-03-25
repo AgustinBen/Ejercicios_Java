@@ -1017,8 +1017,53 @@ No imprimir dentro de obtenerPersonaMayor.
 Usar los métodos de la clase Persona (no acceder directamente a atributos si los hiciste private).  
 <br>
 
+<h3>Ejercicio 28 – Filtrar personas mayores de edad</h3>
 
+**Conceptos necesarios**  
+Arrays de objetos (Persona[])  
+Uso de métodos de la clase (esMayorDeEdad)  
+Recorrido con for  
+Crear un nuevo array  
+Contador (para tamaño dinámico)  
 
+**Consigna**  
+Utilizando la clase Persona:  
+Crear un programa que:  
+Declare un array de personas.  
+Crear un método:  
+obtenerMayoresDeEdad(Persona[] personas)  
+Este método debe:  
+Recorrer el array  
+Contar cuántas personas son mayores de edad  
+Crear un nuevo array con ese tamaño  
+Volver a recorrer el array  
+Guardar en el nuevo array solo las personas mayores de edad  
+Devolver el nuevo array  
+Crear un método:  
+mostrarPersonas(Persona[] personas)  
+Este método debe:  
+Recorrer el array  
+Mostrar:  
+Nombre - Edad  
+Crear un método:  
+mostrarResultado(Persona[] personas)  
+Este método debe:  
+Validar el array  
+Obtener las personas mayores de edad  
+Mostrar:  
+Personas mayores de edad:  
+Mostrar el resultado usando mostrarPersonas  
+*En main*  
+Solo debe existir:  
+Creación del array  
+Llamada a mostrarResultado  
+
+**Reglas**  
+No usar ArrayList ni colecciones.  
+No usar streams.  
+No acceder directamente a atributos (usar getters y métodos de la clase).  
+No imprimir dentro de obtenerMayoresDeEdad.  
+<br>
 
 
 
